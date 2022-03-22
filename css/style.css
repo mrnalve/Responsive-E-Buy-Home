@@ -289,23 +289,23 @@ ul,li{
 .new_item{
     position: relative;
 }
-.new_item .overlay{
+#new_item .new_item .overlay{
     position: absolute;
     background-color: rgba(0, 0, 0,.80);
     color: white;
     inset: 180px 0 24px 17px;
     text-align: center;
 }
-.new_item .overlay h2{
+#new_item .new_item .overlay h2{
     font-size: 36px;
     font-weight: 500;
 }
-.new_item .overlay p{
+#new_item .new_item .overlay p{
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 40px;
 }
-.new_item .overlay a{
+#new_item .new_item .overlay a{
     color: white;
     border: 1px solid white;
     padding: 20px;
@@ -313,16 +313,16 @@ ul,li{
     font-weight: 500;
     transition: .5s;
 }
-.overlay a:hover{
+#new_item .new_item .overlay a:hover{
     background-color: #de4644;
     border-color: #de4644;
     color: white;
 }
 
-/* ####################### new_item part ends #################################### */
+/* ###### new_item part ends ###### */
 
 
-/* ####################### Featured_Product part starts #################################### */
+/* #### Featured_Product part starts #### */
 .feature_latest_pro,
 .feature_latest_menu,
 .feature_latest_image{
@@ -335,7 +335,6 @@ ul,li{
 }
 .feature_latest_pro img{
     padding: 10px 130px 40px 0;
-
 }
 .feature_latest_menu{
     padding-bottom: 30px;
@@ -583,7 +582,7 @@ ul,li{
 .blog_card .blog_image img{
     width: 100%;
 }
-.blog_image .overlay{
+.blog_card .blog_image .overlay{
     position: absolute;
     background-color: rgba(0, 0, 0,.70);
     inset: 0;
@@ -595,22 +594,22 @@ ul,li{
 .blog_image:hover .overlay{
     transform: scale(1);
 }
-.overlay p{
+.blog_image .overlay p{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     padding: 10px 0 0 20px;
 }
-.overlay{
+.blog_image .overlay{
     position: relative;
 }
-.overlay .link_icon{
+.blog_image .overlay .link_icon{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.overlay  h2,h3,h4{
+.blog_image .overlay  h2,h3,h4{
     position: absolute;
     bottom: 20px;
     color: #dddddd;
@@ -619,14 +618,14 @@ ul,li{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-.overlay  h2{
+.blog_image .overlay  h2{
     left: 2px;
 }
-.overlay  h3{
+.blog_image .overlay  h3{
     left: 45%;
     transform: translateX(-50%);
 }
-.overlay  h4{
+.blog_image .overlay  h4{
     right: 2px;
 }
 .blog_text h2{
@@ -666,12 +665,13 @@ ul,li{
     font-weight: 400;
     padding-top: 25px;
 }
-#footer h3{
+#footer h6{
     font-size: 16px;
     color: #ffffff;
     font-weight: 500;
     padding-bottom: 20px;
     padding-top: 10px;
+    text-transform: uppercase;
 }
 #footer a{
     font-size: 14px;
@@ -683,30 +683,20 @@ ul,li{
 #footer a:hover{
     color:#de4644;
 }
-.buy_card{
-    width: 25%;
-}
 .buy_card img{
     vertical-align: middle;
-}
-.contact_card{
-    width: 25%;
 }
 .contact_card i{
     font-size: 14px;
     color: #dddddd;
-    padding: 25px 25px 0 0;
+    padding: 25px 10px 0 0;
 }
-
-.account_card{
-    width: 15%;
+#footer .contact_card p{
+    padding: 0;
 }
 .account_card a{
     display: block;
     padding-top: 15px;
-}
-.sign_up_card{
-    width: 35%;
 }
 .sign_up_card .follow_me{
     margin-top: 20px;
@@ -755,16 +745,15 @@ ul,li{
     border-color: #de4644;
     color: #dddddd;
 }
-/* ####################### Footer part ends #################################### */
+/* #### Footer part ends ### */
 
 
-/* ####################### last Footer part starts #################################### */
+/* ####last Footer part starts ### */
 #last_footer{
     background-color: #555555;
 }
 #last_footer .left_card{
     padding: 20px 0;
-    width: 70%;
 }
 #last_footer .left_card span{
     font-size: 14px;
@@ -774,11 +763,8 @@ ul,li{
 #last_footer .left_card a{
     color: #de4644;
 }
-#last_footer .right_card{
-    width: 30%;
-}
 
-/* ####################### last Footer part ends #################################### */
+/* ###last Footer part ends #### */
 
 .backtop{
     height: 45px;

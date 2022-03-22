@@ -43,6 +43,14 @@
     .new_item .overlay {
         inset: 68px 10px 20px 10px;
     }
+    /* footer part starts */
+    #footer h6{
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+    .sign_up_card i {
+        margin-top: 10px;
+    }
 }
 @media(min-width:576px) and (max-width:991.98px){
     
@@ -95,7 +103,7 @@
 @media(min-width:992px){
     
 }
-@media(max-width:767px){
+@media(max-width:767.98px){
     /* navigation part */
     .navbar-toggler {
         padding: 5px;
@@ -110,6 +118,11 @@
     /* new-item part starts */
     #new_item img{
         width: 95%;
+    }
+    /* footer part starts */
+    #footer h6{
+        padding-bottom: 0;
+        padding-top: 40px;
     }
 }
 @media(max-width:567px){
@@ -141,19 +154,19 @@
         transform: translateX(-46%);
     }
     /* new -item part starts */
-    .new_item .overlay h2{
+    #new_item .new_item .overlay h2{
         font-size: 26px;
         padding-top: 5px;
     }
-    .new_item .overlay p{
+    #new_item .new_item .overlay p{
         font-size: 18px;
         padding-bottom: 20px;
     }
-    .new_item .overlay a{
+    #new_item .new_item .overlay a{
         padding: 12px;
         font-size: 14px;
     }
-    .new_item .overlay {
+    #new_item .new_item .overlay {
         inset: 140px 39px 24px 17px;
     }
     /* blog part starts */
@@ -161,7 +174,17 @@
         font-size: 12px;
     }
     .blog_card .blog_text a{
-        padding-bottom: 15px !important;
+        padding-bottom: 15px;
+    }
+    /* featured product part */
+    .feature_latest_pro_cmn img{
+        padding: 10px 0 40px 0;
+    }
+    /* footer part starts */
+    .sign_up_card i {
+        padding-left: 9px;
+        margin-right: 20px;
+        margin-top: 5px;  
     }
 }
 @media(min-width:450px) and (max-width:575px){
